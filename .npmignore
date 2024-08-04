@@ -1,0 +1,40 @@
+# Source files
+src/
+
+# Development files
+node_modules/
+tests/
+.github/
+.vscode/
+
+# Configuration files
+tsconfig.json
+jest.config.js
+.eslintrc.json
+.prettierrc
+
+# Git files
+.git/
+.gitignore
+
+# Logs
+*.log
+npm-debug.log*
+
+# Miscellaneous
+.DS_Store
+*.env
+*.env.*
+!.env.example
+
+# Documentation
+docs/
+CHANGELOG.md
+CONTRIBUTING.md
+
+# Temporary files
+*.tmp
+*.temp
+
+# TypeScript source maps
+*.map

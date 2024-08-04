@@ -1,0 +1,26 @@
+{
+  "name": "prisma-paginate-plugin",
+  "version": "0.0.1",
+  "description": "An external pagination plugin for prisma ORM",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshahulpm/prisma-paginate-plugin.git"
+  },
+  "keywords": [
+    "Prisma",
+    "Pagination",
+    "Plugin",
+    "ORM"
+  ],
+  "author": "Mohammed Shahul",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4"
+  }
+}
