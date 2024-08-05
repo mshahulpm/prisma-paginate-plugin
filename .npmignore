@@ -38,3 +38,6 @@ CONTRIBUTING.md
 
 # TypeScript source maps
 *.map
+
+# package files
+package-lock.json

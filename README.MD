@@ -187,21 +187,6 @@ By default, the plugin applies a descending sort on the `created_at` field. This
    });
    ```
 
-Note: If you provide an `orderBy` in `findManyArgs` and don't set `skipDateSort` to `true`, the date sort will still be applied in addition to your specified sort.
-
-## Examples
-
-### Basic Pagination
-
-```typescript
-const result = await prismaPaginate({
-  model: prisma.user,
-  paginationQuery: {
-    limit: 20,
-    offset: 40
-  }
-});
-```
 
 ## Contributing
 
